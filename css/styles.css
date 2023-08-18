@@ -414,7 +414,91 @@ fieldset {
 }
 
 .pinkboxLogo {
-  width: 35%;
+  width: 55%;
+}
+.footerGuys {
+  display: inline;
+  font-family: 'Roboto', sans-serif;
+}
+
+.text-faded {
+  color: #000000;
+}
+
+li {
+  color: white;
+}
+a:hover {
+  color: var(--bs-pink)
+}
+
+.pinkHov {
+  color: white;
+}
+
+.pinkHov:hover {
+  color: var(--bs-pink);
+  text-decoration: underline;
+}
+
+.h5 {
+  font-family: 'Roboto', cursive;
+}
+
+.copyright {
+  font-family: roboto;
+}
+
+.p {
+  font-family: 'Roboto', cursive;
+}
+
+
+.footer {
+  background-color: #000000;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer li:hover {
+  color: var(--bs-pink)
+}
+
+
+
+small, .small {
+  font-size: 0.875em;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footerGuys li {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 legend {
@@ -498,12 +582,19 @@ progress {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  font-family: roboto;
+}
+
+h1 {
+  font-family: 'Roboto', cursive;
 }
 
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
-  line-height: 1.2;
+  line-height: .8;
+  font-family: 'Lilita One', cursive;
+  color: var(--bs-pink)
 }
 @media (min-width: 1200px) {
   .display-1 {
@@ -7900,6 +7991,8 @@ textarea.form-control-lg {
   padding-bottom: 3rem !important;
 }
 
+
+
 .pt-0 {
   padding-top: 0 !important;
 }
@@ -8608,6 +8701,35 @@ textarea.form-control-lg {
   .flex-sm-wrap-reverse {
     flex-wrap: wrap-reverse !important;
   }
+
+  .py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+
+  footer a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+  }
+  footer a:hover, footer a:active, footer a:focus {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: underline;
+  }
+
+  a {
+    color: var(--bs-link-color);
+    text-decoration: underline;
+  }
+  a:hover {
+    color: var(--bs-link-hover-color);
+  }
+  
+  a:not([href]):not([class]), a:not([href]):not([class]):hover {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+
   .justify-content-sm-start {
     justify-content: flex-start !important;
   }
