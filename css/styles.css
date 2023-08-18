@@ -3780,6 +3780,24 @@ textarea.form-control-lg {
   border-top-right-radius: 0;
 }
 
+.nav-item {
+  font-size: 120%;
+  padding-right: 50px;
+}
+
+.nav-item:hover {
+  color: var(--bs-pink);
+}
+@media (prefers-reduced-motion: reduce) {
+  .nav-link {
+    transition: none;
+  }
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: var(--bs-pink);
+}
+
 .nav-pills {
   --bs-nav-pills-border-radius: 0.375rem;
   --bs-nav-pills-link-active-color: #fff;
