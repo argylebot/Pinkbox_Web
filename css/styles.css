@@ -435,6 +435,7 @@ a:hover {
 
 .pinkHov {
   color: white;
+  font-family: 'Roboto', cursive;
 }
 
 .pinkHov:hover {
@@ -3783,6 +3784,7 @@ textarea.form-control-lg {
 .nav-item {
   font-size: 120%;
   padding-right: 50px;
+  font-family: 'Roboto', cursive;
 }
 
 .nav-item:hover {
